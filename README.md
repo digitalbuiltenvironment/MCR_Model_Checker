@@ -1,1 +1,1 @@
-# MCR_Model_Checker
+# MCR Model Checker
