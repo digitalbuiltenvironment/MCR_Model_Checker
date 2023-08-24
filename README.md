@@ -1,5 +1,7 @@
 # MCR Model Checker
 
+## Introduction
+
 The MCR model checker is a Python code that would help IDD managers check for the compliance of Revit files against JTC's Model Content Requirement (MCR) requirements. This model checker serves to streamline and optimise the JTC MCR checking process. The code runs on the Revitpythonshell Add-In in Revit. 
 
 ## How does the code work
@@ -45,9 +47,10 @@ The MCR model checker is a Python code that would help IDD managers check for th
 1. When Revit files are too big to be uploaded to Plannerly (>300mb)
 2. Confidential and secret projects that cannot be uploaded to Plannerly and offline checks are required  
 
-## Onboarding
+## Requirements
 
-1. Ensure that you have a working Revit license. 
-2. 
+1. Autodesk Revit  
+2. Revitpythonshell Add-in
+3. 
 
  
