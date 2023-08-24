@@ -1,8 +1,9 @@
-![image](https://github.com/digitalbuiltenvironment/MCR_Model_Checker/assets/140791245/12389ba7-efca-40aa-bddd-29607bf066f4)# MCR Model Checker
+# MCR Model Checker
 
 The MCR model checker is a Python code that would help IDD managers check for the compliance of Revit files against JTC's Model Content Requirement (MCR) requirements. This model checker serves to streamline and optimise the JTC MCR checking process. The code runs on the Revitpythonshell Add-In in Revit. 
 
 ## How does the code work
+
 1. Iterate through a list of category codes (E.g. OST_StructuralColumns , OST_Doors)
 2. Extract a list of RevitElementIDs for given category code
 3. Filter out the required elements using Type Comments or Family and Type Name (E.g Pumps)
@@ -13,6 +14,7 @@ The MCR model checker is a Python code that would help IDD managers check for th
 8. Generate an error report for all elements and export report into an Excel File
 
 ## Functionalities
+
 1. Check if parameters exist
 2. Check if parameter names are correct
 3. Check if parameters are of the correct type
@@ -21,6 +23,7 @@ The MCR model checker is a Python code that would help IDD managers check for th
 6. Error report exported as an Excel File
 
 ## Limitations
+
 1. Currently, the code can only check 6 categories (ProjectInformation, TitleBlocks, Doors, Pump, GeneratingSet, StructuralColumns)
 2. Unable to check Revit element if both Type Comments (MCR code) and Family and Type name are wrong
 3. Identification and correction of parameter names will not work with typo errors and partial inputs
@@ -31,7 +34,15 @@ The MCR model checker is a Python code that would help IDD managers check for th
 5. A list of category codes to check is still needed (Hardcoded)
 6. File path finder function still needs to be manually edited when adding more categories to check OR when code is given to another person to test (hardcoded)
 
+## Future Works
+1. Extension of code to all categories of Revit elements
+2. Functionality to skip checking files that have already been checked before
+3. Online database of Plannerly export files or ability to access Plannerly data directly 
+   - File paths do not need to be changed every time a new person wants to use the code
+4. Designated Pyrevit button that can run the code with a single click 
+
 ## Onboarding
+
 1. Ensure that you have a working Revit license. 
 2. 
 
