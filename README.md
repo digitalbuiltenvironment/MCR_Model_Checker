@@ -51,6 +51,6 @@ The MCR model checker is a Python code that would help IDD managers check for th
 
 1. Autodesk Revit  
 2. Revitpythonshell Add-in
-3. 
+3. Plannerly Excel export files
 
  
