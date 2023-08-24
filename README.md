@@ -41,6 +41,10 @@ The MCR model checker is a Python code that would help IDD managers check for th
    - File paths do not need to be changed every time a new person wants to use the code
 4. Designated Pyrevit button that can run the code with a single click 
 
+## When to use the MCR Model Checker
+1. When Revit files are too big to be uploaded to Plannerly (>300mb)
+2. Confidential and secret projects that cannot be uploaded to Plannerly and offline checks are required  
+
 ## Onboarding
 
 1. Ensure that you have a working Revit license. 
